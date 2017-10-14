@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+	</head>
+	<body>
+		
+		<div>11</div>
+		<div>22</div>
+		<div>33</div>
+		<div>44</div>
+		<div>55</div>
+		
+		<script src="oTT-jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+//			var test = oTT("div");
+//			console.log(test);
+			oTT("div").css({
+				background : "red",
+				height : 40,
+				width : '80px'
+			}).css("opacity");
+			console.dir(oTT("div").constructor);
+			
+		</script>
+	</body>
+</html>
